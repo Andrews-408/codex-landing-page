@@ -1,0 +1,111 @@
+body{
+    box-sizing: border-box;
+    overflow-x: hidden;
+    margin: 0px;
+}
+
+
+/* styles for header  */
+header{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background:  linear-gradient(251deg, #461096 0.57%, #7F3CE0 99.97%);
+    position: relative;
+}
+
+.mask-group{
+    position: absolute;
+    top: 0;
+}
+
+.nav-container{
+    position: absolute;
+    top: 0;
+    padding: 44px 230px;
+    width: 1600px;
+    flex-shrink: 0;
+    gap: 121px;
+    display: flex;
+    align-items: center;
+}
+
+.codext-logo{
+    font-size: 25px;
+    color: #45B5EE;
+    font: 'Inter';
+    font-weight: bold;
+}
+
+.links-container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter';
+}
+
+.links-container li:first-child a {
+    color: #45B5EE;
+    
+}
+
+
+.btn{
+   border-radius: 5px;
+   background: #45B5EE;
+   color: #FFF;
+   font-family: 'Inter';
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 160%;
+   padding: 15px 30px; 
+   box-shadow: none;
+   outline: 0px;
+   border: 0px;
+   cursor: pointer;
+}
+
+/* intro container styles */
+
+.intro-container{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    position: absolute;
+    top: 200px;
+}
+
+.left-section{
+    width: 400px;
+    padding-left: 230px;
+    color: white;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.intro-content{
+    opacity: 80%;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.btn-1{
+    width: 216px;
+}

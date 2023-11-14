@@ -1,0 +1,84 @@
+/* styles for footer goes here */
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+    background-color: black;
+    padding-top: 103px;
+}
+
+.footer-top{
+    display: flex;
+    align-items: flex-start;
+    gap: 70px;
+    margin-bottom: 20px;
+    
+}
+
+.footer-top .codext p{
+    width: 288px;
+    color: white;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    opacity: 0.7;
+}
+
+.footer-container .bottom{
+    color: white;
+    opacity: 0.7;
+    font-family: 'Inter';
+    margin: 30px 0px;
+}
+
+.resources{
+    font-family: 'Poppins';
+    color: white;
+    font-size: 22px;
+}
+
+.resources .reduce-opacity {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    opacity: 0.7;   
+    font-size: 16px;
+    
+}
+
+.resources p{
+    font-size: 16px;
+    width: 220px;
+    opacity: 0.7;
+}
+
+.resources h3{
+    letter-spacing: 1.2px;
+}
+
+.resources .form{
+    display: flex;
+    flex-direction: row;
+        
+}
+
+.resources .form input{
+    background: transparent;
+    padding: 10px 30px;
+    border: 1px solid white;
+    color: white;
+}
+
+.resources .form .send-btn{
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #42B4EE;
+    padding: 15px 30px;
+    margin-left: -11px;
+    cursor: pointer;
+    font-size: 16px;
+}
